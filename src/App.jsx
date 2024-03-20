@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Education from './components/pages/Education';
 import Work from './components/pages/Work';
 import Projects from './components/pages/Projects';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -18,7 +19,7 @@ function App() {
                     <Route path='/projects' element={<Projects />} />
                     <Route path='*' element={<Home />} />
                 </Routes>
-                {/* <Footer /> */}
+                <Footer />
             </Router>
         </>
     );
