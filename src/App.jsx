@@ -6,10 +6,12 @@ import Education from './components/pages/Education';
 import Work from './components/pages/Work';
 import Projects from './components/pages/Projects';
 import Footer from './components/Footer';
+import { CssBaseline } from '@mui/material';
 
 function App() {
     return (
         <>
+            <CssBaseline />
             <Router>
                 <ResponsiveAppBar />
                 <Routes>
