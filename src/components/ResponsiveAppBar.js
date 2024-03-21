@@ -37,7 +37,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: '#41729F' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <CycloneIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
