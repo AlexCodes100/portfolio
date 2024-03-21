@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.be2eacf1.js",
+    "main.js": "/portfolio/static/js/main.bd390497.js",
+    "static/media/blue.jpg": "/portfolio/static/media/blue.d8d46c4edd66ff062731.jpg",
+    "static/media/social-media-1.png": "/portfolio/static/media/social-media-1.7b9f480307592df57cd6.png",
+    "static/media/website-design.png": "/portfolio/static/media/website-design.f5e34b1f400de6180f0d.png",
+    "static/media/email-marketing.png": "/portfolio/static/media/email-marketing.723bfe6a3c08f58bce85.png",
     "index.html": "/portfolio/index.html",
-    "main.be2eacf1.js.map": "/portfolio/static/js/main.be2eacf1.js.map"
+    "main.bd390497.js.map": "/portfolio/static/js/main.bd390497.js.map"
   },
   "entrypoints": [
-    "static/js/main.be2eacf1.js"
+    "static/js/main.bd390497.js"
   ]
 }
