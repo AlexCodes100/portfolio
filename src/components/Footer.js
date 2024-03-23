@@ -4,6 +4,7 @@ import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
 import IconButton from "@mui/material/IconButton";
 import Link from "@mui/material/Link";
+import { Link as RouterLink } from "react-router-dom";
 import Stack from "@mui/material/Stack";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
@@ -97,18 +98,18 @@ export default function Footer() {
           <Typography variant="body2" fontWeight={600}>
             General Information
           </Typography>
-          <Link color="text.secondary" to="/">
-            Home
-          </Link>
-          <Link color="text.secondary" to="/education">
-            Education
-          </Link>
-          <Link color="text.secondary" to="/work">
-            Work
-          </Link>
-          <Link color="text.secondary" to="/projects">
-            Projects
-          </Link>
+          <RouterLink to="/">
+            <Link color="text.secondary">Home</Link>
+          </RouterLink>
+          <RouterLink to="/education">
+            <Link color="text.secondary">Education</Link>
+          </RouterLink>
+          <RouterLink to="/work">
+            <Link color="text.secondary">Work</Link>
+          </RouterLink>
+          <RouterLink to="/projects">
+            <Link color="text.secondary">Projects</Link>
+          </RouterLink>
         </Box>
         <Box
           sx={{
