@@ -33,8 +33,8 @@ function Projects() {
         {projects.map((project, i) => (
           <Grid item xs={12} key={i}>
             <Grid container spacing={3}>
-              <Grid item xs={6}>
-                <Box height={300} style={{ padding: "20px", width: "100%" }}>
+              <Grid item xs={12} sm={6}>
+                <Box style={{ padding: "20px", width: "100%" }}>
                   <Card>
                     <CardMedia
                       component="img"
@@ -45,8 +45,8 @@ function Projects() {
                   </Card>
                 </Box>
               </Grid>
-            <Grid item xs={6}>
-                <Box height={300} style={{ padding: "20px", width: "100%", color: "#5885AF", display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <Grid item xs={12} sm={6}>
+                <Box style={{ padding: "20px", width: "100%", color: "#5885AF", display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <Typography variant="body1" align="center">{project.description}</Typography>
                 </Box>
             </Grid>
