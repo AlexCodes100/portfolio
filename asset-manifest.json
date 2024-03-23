@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.61213a93.js",
+    "main.js": "/portfolio/static/js/main.d1127fbb.js",
     "static/media/blue.jpg": "/portfolio/static/media/blue.d8d46c4edd66ff062731.jpg",
     "static/media/social-media-1.png": "/portfolio/static/media/social-media-1.7b9f480307592df57cd6.png",
     "static/media/website-design.png": "/portfolio/static/media/website-design.f5e34b1f400de6180f0d.png",
@@ -10,9 +10,9 @@
     "static/media/MILLICOM.png": "/portfolio/static/media/MILLICOM.aa0f283efe6535a028d1.png",
     "static/media/REPSA.png": "/portfolio/static/media/REPSA.625d6a4260d2d3ffdac3.png",
     "index.html": "/portfolio/index.html",
-    "main.61213a93.js.map": "/portfolio/static/js/main.61213a93.js.map"
+    "main.d1127fbb.js.map": "/portfolio/static/js/main.d1127fbb.js.map"
   },
   "entrypoints": [
-    "static/js/main.61213a93.js"
+    "static/js/main.d1127fbb.js"
   ]
 }
