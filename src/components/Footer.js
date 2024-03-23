@@ -97,16 +97,16 @@ export default function Footer() {
           <Typography variant="body2" fontWeight={600}>
             General Information
           </Typography>
-          <Link color="text.secondary" href="/">
+          <Link color="text.secondary" to="/">
             Home
           </Link>
-          <Link color="text.secondary" href="/education">
+          <Link color="text.secondary" to="/education">
             Education
           </Link>
-          <Link color="text.secondary" href="/work">
+          <Link color="text.secondary" to="/work">
             Work
           </Link>
-          <Link color="text.secondary" href="/projects">
+          <Link color="text.secondary" to="/projects">
             Projects
           </Link>
         </Box>
@@ -162,13 +162,13 @@ export default function Footer() {
         }}
       >
         <div>
-          <Link color="text.secondary" href="/">
+          <Link color="text.secondary" to="/">
             Privacy Policy
           </Link>
           <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
             &nbsp;•&nbsp;
           </Typography>
-          <Link color="text.secondary" href="/">
+          <Link color="text.secondary" to="/">
             Terms of Service
           </Link>
           <Copyright />
