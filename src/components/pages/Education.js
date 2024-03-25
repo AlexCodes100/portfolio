@@ -1,12 +1,12 @@
 import React from "react";
-import { Grid, Table, TableBody, TableCell, TableContainer, TableRow, Paper } from "@mui/material";
+import { Grid, Table, TableBody, TableCell, TableContainer, TableRow, Paper, Link } from "@mui/material";
 import esen from "../images/esen-logo.png";
 import langara from "../images/langara-logo.png";
 
 function Education() {
-    const headings = ['University', 'Title', 'Duration', 'Description'];
-    const esenData = ['ESEN', 'Bachelor of Arts in Economics and Business', '2012 - 2016', 'Escuela Superior de Economia y Negocios (ESEN) is a private university in El Salvador. It was founded in 1995 by a group of Salvadoran businessmen and academics. It is located in Antiguo Cuscatlán, La Libertad.'];
-    const langaraData = ['Langara', 'Diploma in Computer Studies', '2023 - 2024', 'Langara College is a public degree-granting college in Vancouver, British Columbia, Canada, which serves approximately 22,000 students annually through its university, career, and continuing studies programs.'];
+    const headings = ['University', 'Title', 'Duration', 'Description', 'Website'];
+    const esenData = ['ESEN', 'Bachelor of Arts in Economics and Business', '2012 - 2016', 'Escuela Superior de Economia y Negocios (ESEN) is a private university in El Salvador. It was founded in 1995 by a group of Salvadoran businessmen and academics. It is located in Antiguo Cuscatlán, La Libertad.', <Link href="https://www.esen.edu.sv/">www.esen.edu.sv</Link>];
+    const langaraData = ['Langara', 'Diploma in Computer Studies', '2023 - 2024', 'Langara College is a public degree-granting college in Vancouver, British Columbia, Canada, which serves approximately 22,000 students annually through its university, career, and continuing studies programs.', <Link href="https://www.langara.ca/">www.langara.ca</Link> ];
 
     return (
         <Grid container style={{ height: '65vh' }}>

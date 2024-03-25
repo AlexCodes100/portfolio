@@ -1,12 +1,12 @@
 import React from "react";
-import { Grid, Table, TableBody, TableCell, TableContainer, TableRow, Paper } from "@mui/material";
+import { Grid, Table, TableBody, TableCell, TableContainer, TableRow, Paper, Link } from "@mui/material";
 import repsa from "../images/REPSA.png";
 import milicom from "../images/MILLICOM.png";
 
 function Work() {
-    const headings = ['Position', 'Duration', 'Description'];
-    const esenData = ['IT Manager', '2018 - 2023', 'Repsa is a leading distributor of bearings in El Salvador.'];
-    const langaraData = ['IT Manager', '2017 - 2018', 'Milicom is a telecommunications company with offices all around the world.'];
+    const headings = ['Position', 'Duration', 'Description', 'Website'];
+    const esenData = ['IT Manager', '2018 - 2023', 'Repsa is a leading distributor of bearings in El Salvador.', <Link href="https://www.repsa.com.sv/">www.repsa.com.sv</Link>];
+    const langaraData = ['IT Manager', '2017 - 2018', 'Milicom is a telecommunications company with offices all around the world.', <Link href="https://www.milicom.com/">www.milicom.com</Link>];
 
     return (
         <Grid container style={{ height: '65vh' }}>
