@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.8327446e.js",
-    "static/media/blue.jpg": "/portfolio/static/media/blue.d8d46c4edd66ff062731.jpg",
-    "static/media/social-media-1.png": "/portfolio/static/media/social-media-1.7b9f480307592df57cd6.png",
-    "static/media/website-design.png": "/portfolio/static/media/website-design.f5e34b1f400de6180f0d.png",
-    "static/media/email-marketing.png": "/portfolio/static/media/email-marketing.723bfe6a3c08f58bce85.png",
-    "static/media/langara-logo.png": "/portfolio/static/media/langara-logo.edbb4ca7d09b2af996fb.png",
-    "static/media/esen-logo.png": "/portfolio/static/media/esen-logo.4b244b0ba3de57981e1e.png",
-    "static/media/MILLICOM.png": "/portfolio/static/media/MILLICOM.aa0f283efe6535a028d1.png",
-    "static/media/REPSA.png": "/portfolio/static/media/REPSA.625d6a4260d2d3ffdac3.png",
+    "main.js": "/portfolio/static/js/main.9f839de2.js",
+    "static/media/langara-logo.webp": "/portfolio/static/media/langara-logo.ee6752b51a307368e6ac.webp",
+    "static/media/social-media-1.webp": "/portfolio/static/media/social-media-1.75d669bbd1168b7ba366.webp",
+    "static/media/website-design.webp": "/portfolio/static/media/website-design.3240f8eda4a4af580e18.webp",
+    "static/media/email-marketing.webp": "/portfolio/static/media/email-marketing.05924a24ca342c7f3561.webp",
+    "static/media/esen-logo.webp": "/portfolio/static/media/esen-logo.edfab6898a9f80ddda68.webp",
+    "static/media/REPSA.webp": "/portfolio/static/media/REPSA.67d785d99e7c3f9479c1.webp",
+    "static/media/MILLICOM.webp": "/portfolio/static/media/MILLICOM.3bbb68fd6b40a7e9a7a5.webp",
     "index.html": "/portfolio/index.html",
-    "main.8327446e.js.map": "/portfolio/static/js/main.8327446e.js.map"
+    "main.9f839de2.js.map": "/portfolio/static/js/main.9f839de2.js.map"
   },
   "entrypoints": [
-    "static/js/main.8327446e.js"
+    "static/js/main.9f839de2.js"
   ]
 }
