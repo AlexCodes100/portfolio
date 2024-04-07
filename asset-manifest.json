@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.5f8b6bc7.js",
+    "main.js": "/portfolio/static/js/main.7dc76955.js",
     "static/media/langara-logo.webp": "/portfolio/static/media/langara-logo.ee6752b51a307368e6ac.webp",
     "static/media/social-media-1.webp": "/portfolio/static/media/social-media-1.75d669bbd1168b7ba366.webp",
     "static/media/website-design.webp": "/portfolio/static/media/website-design.3240f8eda4a4af580e18.webp",
@@ -9,9 +9,9 @@
     "static/media/REPSA.webp": "/portfolio/static/media/REPSA.67d785d99e7c3f9479c1.webp",
     "static/media/MILLICOM.webp": "/portfolio/static/media/MILLICOM.3bbb68fd6b40a7e9a7a5.webp",
     "index.html": "/portfolio/index.html",
-    "main.5f8b6bc7.js.map": "/portfolio/static/js/main.5f8b6bc7.js.map"
+    "main.7dc76955.js.map": "/portfolio/static/js/main.7dc76955.js.map"
   },
   "entrypoints": [
-    "static/js/main.5f8b6bc7.js"
+    "static/js/main.7dc76955.js"
   ]
 }
