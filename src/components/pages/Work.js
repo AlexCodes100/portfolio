@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Table, TableBody, TableCell, TableContainer, TableRow, Paper, Link } from "@mui/material";
-import repsa from "../images/REPSA.png";
-import milicom from "../images/MILLICOM.png";
+import repsa from "../images/REPSA.webp";
+import milicom from "../images/MILLICOM.webp";
 
 function Work() {
     const headings = ['Position', 'Duration', 'Description', 'Website'];

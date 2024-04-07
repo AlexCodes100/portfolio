@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Table, TableBody, TableCell, TableContainer, TableRow, Paper, Link } from "@mui/material";
-import esen from "../images/esen-logo.png";
-import langara from "../images/langara-logo.png";
+import esen from "../images/esen-logo.webp";
+import langara from "../images/langara-logo.webp";
 
 function Education() {
     const headings = ['University', 'Title', 'Duration', 'Description', 'Website'];

@@ -8,10 +8,9 @@ import {
   CardMedia,
   Fade,
 } from "@mui/material";
-import emailMarketing from "./images/email-marketing.png";
-import socialMedia from "./images/social-media-1.png";
-import webDevelopment from "./images/website-design.png";
-import blueBg from "./images/blue.jpg";
+import emailMarketing from "./images/email-marketing.webp";
+import socialMedia from "./images/social-media-1.webp";
+import webDevelopment from "./images/website-design.webp";
 import Contact from "./Contact";
 
 function Hero() {

@@ -1,7 +1,7 @@
 import React from "react";
-import emailMarketing from "../images/email-marketing.png";
-import socialMedia from "../images/social-media-1.png";
-import webDevelopment from "../images/website-design.png";
+import emailMarketing from "../images/email-marketing.webp";
+import socialMedia from "../images/social-media-1.webp";
+import webDevelopment from "../images/website-design.webp";
 import {
   Container,
   Grid,
