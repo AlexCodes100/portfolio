@@ -98,17 +98,17 @@ export default function Footer() {
           <Typography variant="body2" fontWeight={600}>
             General Information
           </Typography>
-          <RouterLink to="/">
-            <Link color="text.secondary">Home</Link>
+          <RouterLink to="/" style={{ color: 'rgba(0, 0, 0, 0.54)', textDecoration: 'none' }}>
+            Home
           </RouterLink>
-          <RouterLink to="/education">
-            <Link color="text.secondary">Education</Link>
+          <RouterLink to="/education" style={{ color: 'rgba(0, 0, 0, 0.54)', textDecoration: 'none' }}>
+            Education
           </RouterLink>
-          <RouterLink to="/work">
-            <Link color="text.secondary">Work</Link>
+          <RouterLink to="/work" style={{ color: 'rgba(0, 0, 0, 0.54)', textDecoration: 'none' }}>
+            Work
           </RouterLink>
-          <RouterLink to="/projects">
-            <Link color="text.secondary">Projects</Link>
+          <RouterLink to="/projects" style={{ color: 'rgba(0, 0, 0, 0.54)', textDecoration: 'none' }}>
+            Projects
           </RouterLink>
         </Box>
         <Box
@@ -163,15 +163,6 @@ export default function Footer() {
         }}
       >
         <div>
-          <Link color="text.secondary" to="/">
-            Privacy Policy
-          </Link>
-          <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
-            &nbsp;•&nbsp;
-          </Typography>
-          <Link color="text.secondary" to="/">
-            Terms of Service
-          </Link>
           <Copyright />
         </div>
         <Stack
